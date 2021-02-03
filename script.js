@@ -1,6 +1,7 @@
 function start(){
 
-    $("body").css("background-color", "pink");
+    $("body").css("background-color", "pink");wwwwwww
+    $("#menu a:first").click();
 
 }
 
@@ -19,7 +20,7 @@ function loadpage(e){
     $("#content").load(href);
 
 }
-
+ww
 
 $(document).on("click", "#menu a",loadpage);
 
